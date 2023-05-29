@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styledme1.css">
+    <link rel="stylesheet" href="../projectsCSS/asahi.css">
+    <script src="https://kit.fontawesome.com/ce9479d073.js" crossorigin="anonymous"></script>
+    <script src="../apps1.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.css">
+    <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+    <title>Даниел Каменов Портфолио</title>
+</head>
+<body>
+    <nav data-toggled="false" data-transitionable="false" data-cursor="-inverse">
+        <div id="nav-logo-section" class="nav-section">
+          <a href="../index.html" data-cursor-icon="arrow">
+            <img src="../Resources/LOGO FINAL.png" alt="" >
+          </a>
+        </div>
+        <div id="nav-mobile-section">
+          <div id="nav-link-section" class="nav-section">
+            <a href="../autobiography11.html">ЗА МЕН</a>
+            <a href="../work.html">ПРОЕКТИ</a>
+            <a href="../video.html">ВИДЕОВИЗИТКА</a>
+          </div>
+          <div id="nav-social-section" class="nav-section">
+            <a href="https://twitter.com/DannySorost" target=”_blank”><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/daniel-kamenov-45929a231/" target=”_blank”><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/dannykamenov" target=”_blank”><i class="fa-brands fa-github"></i></a>
+          </div>
+          <div id="nav-contact-section" class="nav-section">
+            <a href="../contact1.html">СВЪРЖЕТЕ СЕ С МЕН</a>
+          </div>
+        </div>
+        <button id="nav-toggle-button" type="button" onclick="handleNavToggle()">
+          <span>Меню</span>
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+    <main class="main">
+        <h1 class="project-opened-title">Рекламна академия 2022 лято - DUREX </h1>
+        <img src="../Resources/RASUMMER2022.PNG" alt="" class="mainimg">
+        <div class="infoproject">
+            <p><strong>Екип:</strong> Андрей Тошев, Даниел Каменов, Дейвид Досев, Марина Сивенова, Ралица Рангелова</p>
+            <p><strong>Описание:</strong> Създаване на кампания за Дюрекс в колаборация с Виктор Стоянов (Ергенът). Проектът е към Рекламна Академия 2022г ЛЯТО.
+            </p>
+            <p><strong>Роля:</strong> Проучване на пазара и извънредно включване като дизайнер на визиите, което беше успешно благодарение на технически умения и базова познания за работа с фотошоп.</p>
+            <p><strong>Цел:</strong> Awareness – да разберат максимално много хора за новата серия презервативи + Продажби – да стимулираме продажбата на максимално много презервативи от серията.</p>
+            <p><strong>Бриф:</strong> нов кондом, лимитирана серия KIND PLEASURE. 3 презерватива от ново поколение с материал за по-добро/мило усещане с аромат на...роза.</p>
+            <p><strong>Проблем:</strong> Мъжете обичат да правят секс без кондом, а жените са твърде стеснителни да държат на принципа за защитен секс.</p>
+            <p><strong>Инсайт:</strong> Много си падам по някого, но държа на безопасния секс.</p>
+            <p><strong>Медии:</strong> Тиндър, Инстаграм, Фейсбук, Ютюб</p>
+        </div>
+        <h1 class="project-opened-title">Визии</h1>
+        <div class="contentforproject">
+            <img src="../projectsIMAGES/durex/viz1.PNG" alt="">
+            <img src="../projectsIMAGES/durex/viz3.PNG" alt="">
+        </div>
+    </main>
+    <script>
+const cursor = new MouseFollower({
+    el: null,
+    container: document.body,
+    className: 'mf-cursor',
+    innerClassName: 'mf-cursor-inner',
+    textClassName: 'mf-cursor-text -opaque',
+    mediaClassName: 'mf-cursor-media',
+    mediaBoxClassName: 'mf-cursor-media-box',
+    iconSvgClassName: 'mf-svgsprite',
+    iconSvgNamePrefix: '-',
+    iconSvgSrc: 'arrow.svg',
+    stateDetection: false,
+    dataAttr: 'cursor',
+    hiddenState: '-hidden',
+    textState: '-text',
+    iconState: '-icon',
+    activeState: '-active',
+    mediaState: '-media',
+    visible: true,
+    visibleOnState: false,
+    speed: 0.55,
+    ease: 'expo.out',
+    overwrite: true,
+    skewing: 0,
+    skewingText: 2,
+    skewingIcon: 2,
+    skewingMedia: 2,
+    skewingDelta: 0.001,
+    skewingDeltaMax: 0.15,
+    stickDelta: 0.15,
+    showTimeout: 20,
+    hideOnLeave: true,
+    hideTimeout: 300,
+    hideMediaTimeout: 300
+});
+    </script>
+</body>
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/autobiography11.css">
+    <script src="https://kit.fontawesome.com/ce9479d073.js" crossorigin="anonymous"></script>
+    <script src="apps1.js" defer></script>
+    <script src="autobiography11.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"/>
+    <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+    <title>Даниел Каменов Портфолио</title>
+</head>
+<body>
+    <nav data-toggled="false" data-transitionable="false" data-cursor="-inverse">
+        <div id="nav-logo-section" class="nav-section">
+          <a href="index.html" data-cursor-icon="arrow">
+            <img src="Resources/LOGO FINAL.png" alt="" >
+          </a>
+        </div>
+        <div id="nav-mobile-section">
+          <div id="nav-link-section" class="nav-section">
+            <a href="autobiography11.html">ЗА МЕН</a>
+            <a href="work.html">ПРОЕКТИ</a>
+            <a href="video.html">ВИДЕОВИЗИТКА</a>
+          </div>
+          <div id="nav-social-section" class="nav-section">
+            <a href="https://twitter.com/DannySorost" target=”_blank”><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/daniel-kamenov-45929a231/" target=”_blank”><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/dannykamenov" target=”_blank”><i class="fa-brands fa-github"></i></a>
+          </div>
+          <div id="nav-contact-section" class="nav-section">
+            <a href="contact1.html">СВЪРЖЕТЕ СЕ С МЕН</a>
+          </div>
+        </div>
+        <button id="nav-toggle-button" type="button" onclick="handleNavToggle()">
+          <span>Меню</span>
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+    <main class="main" data-cursor="-inverse">
+      <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up" style="color: #000000;"></i></button>
+        <h1 class="who">Кой съм аз?</h1>
+        <section class="about hidden">
+          <img src="Resources/ProfilePic.PNG" alt="">
+          <h1 class="whocontent">Здравей, казвам се Даниел Каменов!</h1>
+          <h2 class="whocontent">Нека се запознаем.</h2>
+          <p class="whocontent">На 22г. съм, от Торонто, Канада и съм студент в НБУ - специалност "Реклама".</p>
+        </section>
+        <h1 class="dreamtext hidden">МЕЧТИ</h1>
+        <section class="dream hidden">
+          <h1 class="whocontent">За какво си мечтая?</h1>
+          <p class="whocontent">Да обиколя света, като държавата, която най-много искам да посетя е Япония.</p>
+          <p class="whocontent">Да съм заобиколен от хора, които ме мотивират да развивам себе си.</p>
+          <p class="whocontent">Да реализирам своя собствена рекламна агенция с малък екип от талантливи и забавни хора!</p>
+        </section>
+        <h1 class="intereststext hidden">ИНТЕРЕСИ</h1>
+        <section class="interests hidden">
+          <h1 class="whocontent">Какви са ми интересите?</h1>
+          <p class="whocontent">Честно казано най-много удоволствие ми доставя пътуването, но по-точно проучването на нови дестинации, евтини полети, забележителности и организирането на екскурзии или почивки!</p>
+          <p class="whocontent">Още нещо, което ме влече са езиците </p>
+          <p class="whocontent">В момента съм в процес на изучаване на няколко нови езика, защото смятам, че е важно да се разбираш с хората от различни култури и да се учиш от тях.</p>
+          <div class="languages">
+              <span class="fi fi-bg hidden"></span>
+              <span class="fi fi-ca hidden"></span>
+              <span class="fi fi-es hidden"></span>
+              <span class="fi fi-jp hidden"></span>
+              <span class="fi fi-fr hidden"></span>
+          </div>
+        </section>
+        <h1 class="educationtext hidden">ОБРАЗОВАНИЕ</h1>
+        <section class="education hidden">
+            <div class="container left-container" data-cursor="-opaque">
+              <img src="Resources/STGLOGOUPDATE.PNG" alt="">
+              <div class="text-box hidden">
+                <h2 class="edu">St. George School</h2>
+                <small>2006 - 2014</small>
+                <p class="edu">Периодът в Св. Георги обхваща от подготвителната година до края на 7ми клас. Включва интензивно изучаване на чужди езици: английски и испански</p>
+              </div>
+            </div>
+
+            <div class="container right-container" data-cursor="-opaque">
+              <img src="Resources/dorisLOGO.png" alt="">
+              <div class="text-box hidden">
+                <h2 class="edu">Doris Tenedi High School</h2>
+                <small>2014 - 2019</small>
+                <p class="edu">Периодът в Дорис Тенеди обхваща от 8ми до 12ти клас включително. Включва: интензивно изучаване на чужди езици - английски и испански, множество групови проекти и допълнителни занятия.</p>
+              </div>
+            </div>
+
+            <div class="container left-container" data-cursor="-opaque">
+              <img src="Resources/nbuLOGO.png" alt="">
+              <div class="text-box hidden">
+                <h2 class="edu">New Bulgarian University</h2>
+                <small>2019 - 2023</small>
+                <p class="edu">Основна специалност - БП "Реклама", майнър програма - "Управление на бизнеса и предприемачество ДО". Умения придобити: работа в екип, лидерски умения, презентиране пред публика, търсене на информация на високо ниво, анализиране на бизнеси и организационните им култури.</p>
+              </div>
+            </div>
+
+            <div class="container right-container" data-cursor="-opaque">
+              <img src="Resources/softuniLOGO.jpg" alt="">
+              <div class="text-box hidden">
+                <h2 class="edu">Software University</h2>
+                <small>2022 - 2023</small>
+                <p class="edu">Изучаване на софтуерно инженерство - пътека "JavaScript FullStack Developer". Умения придобити: работа с множество програми, търсене на информация/проучване с цел придобиване на повече знания, работа в екип и изготвяне на проект, както и презентиране пред жури.</p>
+              </div>
+            </div>
+        </section>
+        <h1 class="experiencetext hidden">ОПИТ</h1>
+        <section class="experience hidden">
+          <div class="left-experience yes" data-cursor="-opaque">
+            <div class="text-content">
+              <h2 class="exp">Фрийланс + Собствена рекламна агенция</h2>
+              <small class="smol">2015 - 2020 + 2020-СЕГА</small>
+              <p class="exp">Това е една дълга история, която започна просто като хоби, превърна се във фрийланс работа, а накрая и във фирма. Изпълнявам основните задължения сам, като останалата част аутсорсвам на трети лица.</p>
+            </div>
+          </div>
+          <div class="right-experience lol" data-cursor="-opaque">
+            <div class="text-content">
+              <h2 class="exp">ФинТех стартъп</h2>
+              <small class="smol">2022-2023</small>
+              <p class="exp">Основната ми роля беше да разпределям задачи на екипа, да следя крайни срокове, да проучвам пазара и също така да търся други фирми за партньорство в бранша. Най-големият плюс от тук бяха новите връзки, които успях да създам, които със сигурност ще помогнат за в бъдеще.</p>
+            </div>
+          </div>
+          <div class="left-experience lol" data-cursor="-opaque">
+            <div class="text-content">
+              <h2 class="exp">Бест Брендс ЕООД - Джуниър Акаунт Мениджър</h2>
+              <small class="smol">2022 - Стаж</small>
+              <p class="exp">Поддръжка на взаимоотношения с вече съществуващи клиенти, провеждане на пазарни проучвания и документация на процесите.</p>
+            </div>
+          </div>
+          <div class="right-experience lol" data-cursor="-opaque">
+            <div class="text-content">
+              <h2 class="exp">Каммекс - застрахователна фирма</h2>
+              <small class="smol">2022-2023</small>
+              <p class="exp">Проучване на конкуренция,набиране на повече клиенти, консултации, създаване на изцяло нов ценоразпис и атрактивни оферти, с цел привличане на нови клиенти за бизнеса.</p>
+            </div>
+          </div>
+        </section>
+        <h1 class="skilltext hidden">УМЕНИЯ</h1>
+        <section class="skills">
+          <div class="skill hidden">
+            <li>
+              <h3>Работа в екип</h3>
+              <span class="bar"><span class="a hidden"></span></span>
+            </li>
+            <li>
+              <h3>Управление на проекти</h3>
+              <span class="bar"><span class="b hidden"></span></span>
+            </li>
+            <li>
+              <h3>Решаване на проблеми</h3>
+              <span class="bar"><span class="c hidden"></span></span>
+            </li>
+            <li>
+              <h3>Комуникация</h3>
+              <span class="bar"><span class="d hidden"></span></span>
+            </li>
+            <li>
+              <h3>Работа с множество платформи</h3>
+              <span class="bar"><span class="e hidden"></span></span>
+            </li>
+            
+          </div>
+        </section>
+    </main>
+    <script>
+const cursor = new MouseFollower({
+    el: null,
+    container: document.body,
+    className: 'mf-cursor',
+    innerClassName: 'mf-cursor-inner',
+    textClassName: 'mf-cursor-text -opaque',
+    mediaClassName: 'mf-cursor-media',
+    mediaBoxClassName: 'mf-cursor-media-box',
+    iconSvgClassName: 'mf-svgsprite',
+    iconSvgNamePrefix: '-',
+    iconSvgSrc: 'arrow.svg',
+    stateDetection: false,
+    dataAttr: 'cursor',
+    hiddenState: '-hidden',
+    textState: '-text',
+    iconState: '-icon',
+    activeState: '-active',
+    mediaState: '-media',
+    visible: true,
+    visibleOnState: false,
+    speed: 0.55,
+    ease: 'expo.out',
+    overwrite: true,
+    skewing: 0,
+    skewingText: 2,
+    skewingIcon: 2,
+    skewingMedia: 2,
+    skewingDelta: 0.001,
+    skewingDeltaMax: 0.15,
+    stickDelta: 0.15,
+    showTimeout: 20,
+    hideOnLeave: true,
+    hideTimeout: 300,
+    hideMediaTimeout: 300
+});
+    </script>
+</body>
+</html>

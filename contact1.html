@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styledme1.css">
+    <link rel="stylesheet" href="styles/contactme2.css">
+    <script src="https://kit.fontawesome.com/ce9479d073.js" crossorigin="anonymous"></script>
+    <script src="apps1.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.css">
+    <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+    <title>Даниел Каменов Портфолио</title>
+</head>
+<body>
+    <nav data-toggled="false" data-transitionable="false" data-cursor="-inverse">
+        <div id="nav-logo-section" class="nav-section">
+          <a href="index.html" data-cursor-icon="arrow">
+            <img src="Resources/LOGO FINAL.png" alt="" >
+          </a>
+        </div>
+        <div id="nav-mobile-section">
+          <div id="nav-link-section" class="nav-section">
+            <a href="autobiography11.html">ЗА МЕН</a>
+            <a href="work.html">ПРОЕКТИ</a>
+            <a href="video.html">ВИДЕОВИЗИТКА</a>
+          </div>
+          <div id="nav-social-section" class="nav-section">
+            <a href="https://twitter.com/DannySorost" target=”_blank”><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/daniel-kamenov-45929a231/" target=”_blank”><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/dannykamenov" target=”_blank”><i class="fa-brands fa-github"></i></a>
+          </div>
+          <div id="nav-contact-section" class="nav-section">
+            <a href="#">СВЪРЖЕТЕ СЕ С МЕН</a>
+          </div>
+        </div>
+        <button id="nav-toggle-button" type="button" onclick="handleNavToggle()">
+          <span>Меню</span>
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+    <main class="main" data-cursor="-inverse">
+      <div class="info">
+        <div class="content">
+          <h1 class="lineone">СВЪРЖЕТЕ</h1>
+          <h1 class="linetwo">СЕ С МЕН</h1>
+          <p class="email">business@dannykamenov.com</p>
+          <p class="phone">+359XXXXXXXXX</p>
+          <div class="social">
+            <a href="https://twitter.com/DannySorost" target=”_blank”><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/daniel-kamenov-45929a231/" target=”_blank”><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/dannykamenov/" target=”_blank”><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="form">
+        <div class="formbox">
+          <div><h2 style="font-size: 40px; font-weight: bold;">Пишете ми..</h2></div>
+          <form action="" class="formboxx">
+            <div>
+              <label for="First-Name"></label>
+              <input type="text" class="input-field nameform" placeholder="Как се казваш?" id="First-Name" required>
+            </div>
+            <div>
+              <label for="email"></label>
+              <input type="email" class="input-field emailform" placeholder="Напиши си имейла, моля!" id="email" required>
+            </div>
+            <div>
+              <label for="textarea"></label>
+              <textarea name="textarea" class="input-field textarea" id="textarea" maxlength="5000" placeholder="Напиши си съобщението тук..." required></textarea>
+            </div>
+            <input class="input-field btn" type="submit" value="Изпрати">
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>2023 &copy; Daniel Kamenov</p>
+    </footer>
+    <script>
+const cursor = new MouseFollower({
+    el: null,
+    container: document.body,
+    className: 'mf-cursor',
+    innerClassName: 'mf-cursor-inner',
+    textClassName: 'mf-cursor-text -opaque',
+    mediaClassName: 'mf-cursor-media',
+    mediaBoxClassName: 'mf-cursor-media-box',
+    iconSvgClassName: 'mf-svgsprite',
+    iconSvgNamePrefix: '-',
+    iconSvgSrc: 'arrow.svg',
+    stateDetection: false,
+    dataAttr: 'cursor',
+    hiddenState: '-hidden',
+    textState: '-text',
+    iconState: '-icon',
+    activeState: '-active',
+    mediaState: '-media',
+    visible: true,
+    visibleOnState: false,
+    speed: 0.55,
+    ease: 'expo.out',
+    overwrite: true,
+    skewing: 0,
+    skewingText: 2,
+    skewingIcon: 2,
+    skewingMedia: 2,
+    skewingDelta: 0.001,
+    skewingDeltaMax: 0.15,
+    stickDelta: 0.15,
+    showTimeout: 20,
+    hideOnLeave: true,
+    hideTimeout: 300,
+    hideMediaTimeout: 300
+});
+    </script>
+</body>
+</html>

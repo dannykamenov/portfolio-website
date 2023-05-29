@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styledme1.css">
+    <link rel="stylesheet" href="../projectsCSS/asahi.css">
+    <script src="https://kit.fontawesome.com/ce9479d073.js" crossorigin="anonymous"></script>
+    <script src="../apps1.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.css">
+    <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+    <title>Даниел Каменов Портфолио</title>
+</head>
+<body>
+    <nav data-toggled="false" data-transitionable="false" data-cursor="-inverse">
+        <div id="nav-logo-section" class="nav-section">
+          <a href="../index.html" data-cursor-icon="arrow">
+            <img src="../Resources/LOGO FINAL.png" alt="" >
+          </a>
+        </div>
+        <div id="nav-mobile-section">
+          <div id="nav-link-section" class="nav-section">
+            <a href="../autobiography11.html">ЗА МЕН</a>
+            <a href="../work.html">ПРОЕКТИ</a>
+            <a href="../video.html">ВИДЕОВИЗИТКА</a>
+          </div>
+          <div id="nav-social-section" class="nav-section">
+            <a href="https://twitter.com/DannySorost" target=”_blank”><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/daniel-kamenov-45929a231/" target=”_blank”><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/dannykamenov" target=”_blank”><i class="fa-brands fa-github"></i></a>
+          </div>
+          <div id="nav-contact-section" class="nav-section">
+            <a href="../contact1.html">СВЪРЖЕТЕ СЕ С МЕН</a>
+          </div>
+        </div>
+        <button id="nav-toggle-button" type="button" onclick="handleNavToggle()">
+          <span>Меню</span>
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+    <main class="main">
+        <h1 class="project-opened-title">Проект за ADVB607	Иновативни форми на рекламата</h1>
+        <img src="../projectsIMAGES/socialmeta/main.jpeg" alt="" class="mainimg">
+        <div class="infoproject">
+            <p><strong>Екип:</strong> Даниел Каменов, Андрей Тошев, Дейвид Досев, Пламена Дачева</p>
+            <p><strong>Описание:</strong> Проект с цел проучване на социалните мрежи и метавселената и това как те са променили/променят/биха променили рекламата. Включва анализ на: социалните мрежи в съвременния медиен микс, ангажираност, трендове след ковид, различните социални мрежи, метавселената и нейните възможности.
+            </p>
+            <p><strong>Роля:</strong> В този проект следях работния процес и направих проучване за метавселената, като извадих примери и описах подробно всичките възможности, които има тази нова концепция.</p>
+            <p><strong>Предизвикателства:</strong> Определяне на маркетингови цели, идентифициране на правилната платформа, разбиране на целевата аудитория, намаляване на степента на ангажираност, увеличаване на рекламните разходи.</p>
+            <p><strong>Решения:</strong> Създаване на измерими цели, избиране на подходяща платформа, опознаване на клиента, ангажираност с помощта на социални медии, точно таргетиране.</p>
+            <p><strong>Метавселена:</strong> Бъдещето изглежда светло за метавселената.Това вече не е концепция за научна фантастика. Дейностите, които в момента се извършват в реалния свят,
+              може в крайна сметка да се осъществят в една метавселена в огромно количество.</p>
+            <p><strong>Изводи:</strong> Социалните мрежи се ползват все повече и повече и стават все по-добра опция за реклами. Разходите са ниски и цялата получена информация е лесно измерима и точна. <br/>
+            </p>
+        </div>
+        <h1 class="project-opened-title">Медия</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KlJYiOplw2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="contentforproject">
+            <img src="../projectsIMAGES/socialmeta/viz1.jpg" alt="">
+            <img src="../projectsIMAGES/socialmeta/viz2.jpg" alt="">
+        </div>
+    </main>
+    <script>
+const cursor = new MouseFollower({
+    el: null,
+    container: document.body,
+    className: 'mf-cursor',
+    innerClassName: 'mf-cursor-inner',
+    textClassName: 'mf-cursor-text -opaque',
+    mediaClassName: 'mf-cursor-media',
+    mediaBoxClassName: 'mf-cursor-media-box',
+    iconSvgClassName: 'mf-svgsprite',
+    iconSvgNamePrefix: '-',
+    iconSvgSrc: 'arrow.svg',
+    stateDetection: false,
+    dataAttr: 'cursor',
+    hiddenState: '-hidden',
+    textState: '-text',
+    iconState: '-icon',
+    activeState: '-active',
+    mediaState: '-media',
+    visible: true,
+    visibleOnState: false,
+    speed: 0.55,
+    ease: 'expo.out',
+    overwrite: true,
+    skewing: 0,
+    skewingText: 2,
+    skewingIcon: 2,
+    skewingMedia: 2,
+    skewingDelta: 0.001,
+    skewingDeltaMax: 0.15,
+    stickDelta: 0.15,
+    showTimeout: 20,
+    hideOnLeave: true,
+    hideTimeout: 300,
+    hideMediaTimeout: 300
+});
+    </script>
+</body>
+</html>

@@ -1,0 +1,230 @@
+:root {
+    --background-color: rgb(6, 10, 25);
+    --border-color: rgb(255, 255, 255, 0.1);
+    --highlight-color: rgb(126, 87, 194);
+}
+
+
+main {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.info {
+    flex-basis: 60%;
+}
+
+.form {
+    flex-basis: 40%;
+    border-left: var(--border-color) 1px solid;
+}
+
+footer {
+    height: 10%;
+    border-top: var(--border-color) 1px solid;
+    text-align: center;
+    
+}
+
+footer p {
+    margin-top: 33px;
+    align-items: center;
+    font-size: 30px;
+    color: #4A475F;
+}
+
+.content {
+    margin-top: 75px;
+    margin-left: 50px;
+    height: 50%;
+}
+
+.info h1 {
+    font-size: 100px;
+    font-weight: bolder;
+    padding: 10px 30px;
+}
+
+.email {
+    padding: 30px 30px;
+    font-size: 30px;
+    text-decoration: none;
+    transition: 0.5s;
+    color: var(--highlight-color);
+    width: 60%;
+}
+
+.email:hover {
+    font-size: 40px;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.phone {
+    padding: 30px 30px;
+    font-size: 30px;
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+
+.social {
+    padding: 30px 30px;
+}
+
+.social a {
+    text-decoration: none;
+    font-size: 50px;
+    transition: 0.5s;
+    padding-right: 60px;
+}
+
+.social a:hover {
+    font-size: 60px;
+    transition: 0.5s;
+}
+
+.form {
+    display: block;
+    text-align: center;
+}
+
+.formbox   {
+    display: inline-block;
+    width: 80%;
+    height: 100%;
+    margin-top: 100px;
+}
+
+.formboxx {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.input-field {
+    width: 70%;
+    height: 55px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    outline: none;
+    background: transparent;
+    color: white;
+    transition: 0.5s;
+}
+
+.textarea {
+    height: 150px;
+    padding-top: 10px;
+}
+
+.btn {
+    height: 50px;
+    width: 30%;
+    transition: 0.5s;
+    color: white;
+    font-size: large;
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn:hover {
+    background-color: var(--highlight-color);
+    transition: 0.5s;
+}
+
+
+.input-field::placeholder {
+    font-family: 'Raleway', sans-serif;
+}
+
+.nameform:hover, .emailform:hover, .textarea:hover {
+    border: 1px solid var(--highlight-color);
+    transition: 0.5s;
+}
+
+.nameform:focus, .emailform:focus, .textarea:focus {
+    border: 1px solid var(--highlight-color);
+    transition: 0.5s;
+}
+
+@media(max-width: 1024px) {
+    body {
+        overflow: scroll;
+    }
+
+    main {
+        display: inline;
+        width: 100%;
+        overflow: scroll;
+    }
+
+    .content {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .info {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .info h1 {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .email {
+        text-align: center;
+        font-size: 17px;
+        text-decoration: none;
+        transition: 0.5s;
+        color: var(--highlight-color);
+        width: 100%;
+    }
+
+    .phone {
+        font-size: 17px;
+        text-decoration: none;
+        letter-spacing: 5px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .social {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .social a {
+        text-decoration: none;
+        font-size: 25px;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        padding: 20px 20px;
+    }
+
+    .input-field::placeholder {
+        font-family: 'Raleway', sans-serif;
+        font-size: 12px;
+    }
+
+    .form {
+        margin-bottom: 30px;
+        border-top: var(--border-color) 1px solid;
+    }
+
+    .btn {
+        height: 50px;
+        width: 70%;
+        transition: 0.5s;
+        color: white;
+        font-size: large;
+        letter-spacing: 2px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+}

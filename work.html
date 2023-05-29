@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styledme1.css">
+    <script src="https://kit.fontawesome.com/ce9479d073.js" crossorigin="anonymous"></script>
+    <script src="apps1.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.css">
+    <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+    <title>Даниел Каменов Портфолио</title>
+</head>
+<body>
+    <nav data-toggled="false" data-transitionable="false" data-cursor="-inverse">
+        <div id="nav-logo-section" class="nav-section">
+          <a href="index.html" data-cursor-icon="arrow">
+            <img src="Resources/LOGO FINAL.png" alt="" >
+          </a>
+        </div>
+        <div id="nav-mobile-section">
+          <div id="nav-link-section" class="nav-section">
+            <a href="autobiography11.html">ЗА МЕН</a>
+            <a href="#">ПРОЕКТИ</a>
+            <a href="video.html">ВИДЕОВИЗИТКА</a>
+          </div>
+          <div id="nav-social-section" class="nav-section">
+            <a href="https://twitter.com/DannySorost" target=”_blank”><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/daniel-kamenov-45929a231/" target=”_blank”><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/dannykamenov" target=”_blank”><i class="fa-brands fa-github"></i></a>
+          </div>
+          <div id="nav-contact-section" class="nav-section">
+            <a href="contact1.html">СВЪРЖЕТЕ СЕ С МЕН</a>
+          </div>
+        </div>
+        <button id="nav-toggle-button" type="button" onclick="handleNavToggle()">
+          <span>Меню</span>
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+    <main class="main">
+        <article data-index="0" data-status="active">
+            <div class="article-image-section article-section" data-cursor="-hidden" data-cursor="-hidden">
+                
+                <p class="img-hover">" Кампания за Asahi Super 'Dry' "</p>
+            </div>
+            <div class="article-description-section article-section" data-cursor="-inverse">
+                <h2 class="current-project-description">Студентски проект</h2>
+                <p class="current-project-description"><strong>Описание:</strong> Asahi Super Dry е марка лагер с малък размер в международен мащаб – 47-ата по големина по обем
+                    извън Япония. Основна цел: топ 10 международни марки бира до 2030 г. Проект към  AdVenture 2021/2022 г. - създаване на кампания за Asahi Super Dry!</p>
+                <p class="current-project-description"><strong>Роля:</strong> Основната ми роля в този проект беше да разпределя задачите в екипа и да следя цялостния процес на изпълнение. Моята задача се фокусираше върху проучването на историята на бранда, пазарната ситуация и конкурентите.</p>
+            </div>
+            <div class="article-title-section article-section" data-cursor-icon="arrow.svg" data-cursor="-inverse">
+                <a href="projectsHTML/asahi.html" >
+                    <h2 class="project-title">Проект за Asahi AdVenture 2022</h2>
+                    <h2 class="show-more">Покажи проект</h2>
+                    <i class="fa-regular fa-plus"></i>
+                </a>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()" data-cursor-text="Предишен проект">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()" data-cursor-text="Следващ проект">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="1" data-status="inactive">
+            <div class="article-image-section article-section" data-cursor="-hidden">
+                
+                <p class="img-hover">" Кампания за СВЕЖАР"</p>
+            </div>
+            <div class="article-description-section article-section" data-cursor="-inverse">
+                <h2 class="current-project-description">Студентски проект</h2>
+                <p class="current-project-description"><strong>Описание:</strong> Нова компания на българския пазар, стартираща производство на месни продукти приготвени изцяло на растителна основа. Създаване на компания, проучване на пазара, създаване на продукти, визии и телевизионен спот. Проект за Рекламна академия 2022 – сектор храни.</p>
+                <p class="current-project-description"><strong>Роля:</strong> Основната ми роля в проекта беше да проучвам пазара, да следя работния процес, както и да помагам на криейтив екипа при нужда (търсене на информация или ресурси). Участвах активно и в създаването на телевизионния спот (видеообработка, търсене на визуализации и тн).</p>
+            </div>
+            <div class="article-title-section article-section" data-cursor-icon="arrow.svg" data-cursor="-inverse">
+                <a href="projectsHTML/svejar.html">
+                    <h2 class="project-title">Проект за Рекламна академия 2022</h2>
+                    <h2 class="show-more">Покажи проект</h2>
+                    <i class="fa-regular fa-plus"></i>
+                </a>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()" data-cursor-text="Предишен проект">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()" data-cursor-text="Следващ проект">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="2" data-status="inactive">
+            <div class="article-image-section article-section" data-cursor="-hidden">
+                
+                <p class="img-hover">" Кампания за DUREX"</p>
+            </div>
+            <div class="article-description-section article-section" data-cursor="-inverse">
+                <h2 class="current-project-description">Студентски проект</h2>
+                <p class="current-project-description"><strong>Описание:</strong> Създаване на кампания за Дюрекс в колаборация с Виктор Стоянов (Ергенът). Проектът е към Рекламна Академия 2022г ЛЯТО.</p>
+                <p class="current-project-description"><strong>Роля:</strong> Проучване на пазара и извънредно включване като дизайнер на визиите, което беше успешно благодарение на технически умения и базова познания за работа с фотошоп.</p>
+            </div>
+            <div class="article-title-section article-section" data-cursor-icon="arrow.svg" data-cursor="-inverse">
+                <a href="projectsHTML/durex.html">
+                    <h2 class="project-title">Проект за Рекламна академия 2022 ЛЯТО</h2>
+                    <h2 class="show-more">Покажи проект</h2>
+                    <i class="fa-regular fa-plus"></i>
+                </a>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()" data-cursor-text="Предишен проект">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()" data-cursor-text="Следващ проект">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="3" data-status="inactive">
+            <div class="article-image-section article-section" data-cursor="-hidden">
+                
+                <p class="img-hover">" Кампания за Takeaway"</p>
+            </div>
+            <div class="article-description-section article-section" data-cursor="-inverse">
+                <h2 class="current-project-description">Студентски проект</h2>
+                <p class="current-project-description"><strong>Описание:</strong> Студентски проект с цел проучване на бранд по наш избор и правене на колаборация с друг бранд по наш избор. Проучването включва: история на бранда, бранд адвокати, таргет групи, подходящи канали за комуникация и пример за колаборация.</p>
+                <p class="current-project-description"><strong>Роля:</strong> Проучване на бранда и на пазара на електрически автомобили, както и изготвяне на концепция за партньорство със Спарк.</p>
+            </div>
+            <div class="article-title-section article-section" data-cursor-icon="arrow.svg" data-cursor="-inverse">
+                <a href="projectsHTML/takeaway.html">
+                    <h2 class="project-title">Проект за ADVB605	Брандинг</h2>
+                    <h2 class="show-more">Покажи проект</h2>
+                    <i class="fa-regular fa-plus"></i>
+                </a>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()" data-cursor-text="Предишен проект">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()" data-cursor-text="Следващ проект">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="4" data-status="inactive">
+            <div class="article-image-section article-section" data-cursor="-hidden">
+                
+                <p class="img-hover">" Проучване за социалните мрежи и метавселената"</p>
+            </div>
+            <div class="article-description-section article-section" data-cursor="-inverse">
+                <h2 class="current-project-description">Студентски проект</h2>
+                <p class="current-project-description"><strong>Описание:</strong> Проект с цел проучване на социалните мрежи и метавселената и това как те са променили/променят/биха променили рекламата. Включва анализ на: социалните мрежи в съвременния медиен микс, ангажираност, трендове след ковид, различните социални мрежи, метавселената и нейните възможности.</p>
+                <p class="current-project-description"><strong>Роля:</strong> В този проект следях работния процес и направих проучване за метавселената, като извадих примери и описах подробно всичките възможности, които има тази нова концепция.</p>
+            </div>
+            <div class="article-title-section article-section" data-cursor-icon="arrow.svg" data-cursor="-inverse">
+                <a href="projectsHTML/socialmeta.html">
+                    <h2 class="project-title">Проект за ADVB607	Иновативни форми на рекламата</h2>
+                    <h2 class="show-more">Покажи проект</h2>
+                    <i class="fa-regular fa-plus"></i>
+                </a>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()" data-cursor-text="Предишен проект">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()" data-cursor-text="Следващ проект">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="5" data-status="inactive">
+            <div class="article-image-section article-section" data-cursor="-hidden">
+                
+                <p class="img-hover">" Кампания за GLOVO"</p>
+            </div>
+            <div class="article-description-section article-section" data-cursor="-inverse">
+                <h2 class="current-project-description">Студентски проект</h2>
+                <p class="current-project-description"><strong>Описание:</strong> Студентски проект, при който си избираме бранд и правим проучване – сторителинг, бранд адвокати, архитектура, матрица на БКГ, стойности, бранд идентичност, имидж, таргет групи и правим криейтив концепция.</p>
+                <p class="current-project-description"><strong>Роля:</strong> Проучване за сторителинг, архитектура на бранда, матрица на БКГ, имидж, таргет групи. Съвместна работа по криейтив концепцията.</p>
+            </div>
+            <div class="article-title-section article-section" data-cursor-icon="arrow.svg" data-cursor="-inverse">
+                <a href="projectsHTML/glovo.html">
+                    <h2 class="project-title">Проект за ADVB616	Стратегически бранд мениджмънт</h2>
+                    <h2 class="show-more">Покажи проект</h2>
+                    <i class="fa-regular fa-plus"></i>
+                </a>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()" data-cursor-text="Предишен проект">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()" data-cursor-text="Следващ проект">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="6" data-status="inactive">
+            <div class="article-image-section article-section" data-cursor="-hidden">
+                
+                <p class="img-hover">" Кампания за FEE"</p>
+            </div>
+            <div class="article-description-section article-section" data-cursor="-inverse">
+                <h2 class="current-project-description">Студентски проект</h2>
+                <p class="current-project-description"><strong>Описание:</strong> Създаване на изцяло нова компания, свързана с метавселената. Създаване на продукт, цели, мисия, партньорства, проучване на пазар и изготвяне на концепция за кампания за нашия продукт.</p>
+                <p class="current-project-description"><strong>Роля:</strong> Разпределяне на задачи в екипа, проучване на възможности и потенциални колаборации за продукта, както и събития, на които да присъстваме с цел изграждане на връзки в сферата.</p>
+            </div>
+            <div class="article-title-section article-section" data-cursor-icon="arrow.svg" data-cursor="-inverse">
+                <a href="projectsHTML/fee.html">
+                    <h2 class="project-title">Проект за ADVB607	Иновативни форми на рекламата</h2>
+                    <h2 class="show-more">Покажи проект</h2>
+                    <i class="fa-regular fa-plus"></i>
+                </a>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()" data-cursor-text="Предишен проект">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()" data-cursor-text="Следващ проект">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="7" data-status="inactive">
+            <div class="article-image-section article-section" data-cursor="-hidden">
+                
+                <p class="img-hover">" Кампания за CAMPER "</p>
+            </div>
+            <div class="article-description-section article-section" data-cursor="-inverse">
+                <h2 class="current-project-description">Студентски проект</h2>
+                <p class="current-project-description"><strong>Описание:</strong> В тази задача трябваше да си харесаме бранд и да създадем изцяло нов продукт и маркетингова стратегия за него. Избрахме бранда Camper, тъй като се движат в по-екологична посока и решихме, че искаме да създадем иновативен продукт, който да промени света на футбола.</p>
+                <p class="current-project-description"><strong>Роля:</strong> Проучване на пазарна на футболни обувки, потенциалната конкуренция и шансът такъв продукт да пробие и да бъде следващото голямо нещо.</p>
+            </div>
+            <div class="article-title-section article-section" data-cursor-icon="arrow.svg" data-cursor="-inverse">
+                <a href="projectsHTML/camper.html">
+                    <h2 class="project-title">Проект за ADVB600	Маркетингова стратегия</h2>
+                    <h2 class="show-more">Покажи проект</h2>
+                    <i class="fa-regular fa-plus"></i>
+                </a>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()" data-cursor-text="Предишен проект">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()" data-cursor-text="Следващ проект">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="8" data-status="inactive">
+            <div class="article-image-section article-section" data-cursor="-hidden">
+                
+                <p class="img-hover">" Проучване за НПО 'Аз гласувам' "</p>
+            </div>
+            <div class="article-description-section article-section" data-cursor="-inverse">
+                <h2 class="current-project-description">Студентски проект</h2>
+                <p class="current-project-description"><strong>Описание:</strong> Проучване към несъществуващо НПО „Аз гласувам“ с учебна цел, на тема защо все повече намалява активността на гласуване в България и какво можем да направим, за да я повишим. Проучването се извършва на база дълбочинни интервюта.</p>
+                <p class="current-project-description"><strong>Роля:</strong> Съставяне на въпросник, който да отговори на възможно най-много въпроси и провеждане на 4 дълбочинни интервюта.</p>
+            </div>
+            <div class="article-title-section article-section" data-cursor-icon="arrow.svg" data-cursor="-inverse" >
+                <a href="projectsHTML/empathy.html">
+                    <h2 class="project-title">Проект за ADVB717	Стратегическо планиране</h2>
+                    <h2 class="show-more">Покажи проект</h2>
+                    <i class="fa-regular fa-plus"></i>
+                </a>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()" data-cursor-text="Предишен проект">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()" data-cursor-text="Следващ проект">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </article>
+    </main>
+    <script>
+const cursor = new MouseFollower({
+    el: null,
+    container: document.body,
+    className: 'mf-cursor',
+    innerClassName: 'mf-cursor-inner',
+    textClassName: 'mf-cursor-text -opaque',
+    mediaClassName: 'mf-cursor-media',
+    mediaBoxClassName: 'mf-cursor-media-box',
+    iconSvgClassName: 'mf-svgsprite',
+    iconSvgNamePrefix: '-',
+    iconSvgSrc: 'arrow.svg',
+    stateDetection: false,
+    dataAttr: 'cursor',
+    hiddenState: '-hidden',
+    textState: '-text',
+    iconState: '-icon',
+    activeState: '-active',
+    mediaState: '-media',
+    visible: true,
+    visibleOnState: false,
+    speed: 0.55,
+    ease: 'expo.out',
+    overwrite: true,
+    skewing: 0,
+    skewingText: 2,
+    skewingIcon: 2,
+    skewingMedia: 2,
+    skewingDelta: 0.001,
+    skewingDeltaMax: 0.15,
+    stickDelta: 0.15,
+    showTimeout: 20,
+    hideOnLeave: true,
+    hideTimeout: 300,
+    hideMediaTimeout: 300
+});
+    </script>
+</body>
+</html>
